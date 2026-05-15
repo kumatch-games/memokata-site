@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー — メモカタ</title>
+  <meta name="description" content="メモカタのプライバシーポリシー。個人情報の取り扱い、写真へのアクセス、ローカル解析、データ保存について説明します。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="page-bg">
+    <div class="bg-orb bg-orb--1"></div>
+    <div class="bg-orb bg-orb--2"></div>
+    <div class="bg-orb bg-orb--3"></div>
+  </div>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="/" class="header__logo" id="header-logo">
+        <span class="header__logo-icon">📸</span>
+        <span class="header__logo-text">メモカタ</span>
+      </a>
+      <nav class="header__nav" id="header-nav">
+        <a href="/privacy/" class="header__link header__link--active" id="nav-privacy">プライバシーポリシー</a>
+        <a href="/terms/" class="header__link" id="nav-terms">利用規約</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="doc-page">
+    <div class="doc-card">
+      <h1>プライバシーポリシー</h1>
+      <p class="doc-meta">最終更新日：2026年5月15日</p>
+
+      <p class="doc-intro">メモカタ（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。</p>
+
+      <h2>1. 収集する情報</h2>
+      <p>本アプリは、ユーザーの個人情報を収集しません。</p>
+      <ul>
+        <li>アカウント登録は不要です</li>
+        <li>画像データをサーバーに送信しません</li>
+        <li>広告SDKを使用しません</li>
+        <li>トラッキングを行いません</li>
+      </ul>
+
+      <h2>2. 写真へのアクセス</h2>
+      <p>本アプリは、スクリーンショットやメモ画像の仕分けのために、端末内の写真ライブラリへのアクセスを要求します。</p>
+      <ul>
+        <li>写真の解析はすべて端末内（ローカル）で行われます</li>
+        <li>画像データが外部に送信されることはありません</li>
+        <li>写真の削除は、ユーザーの明示的な操作とiOS標準の確認を経てのみ実行されます</li>
+        <li>自動削除は行いません</li>
+      </ul>
+
+      <h2>3. ローカル解析</h2>
+      <p>メモ画像の判定にはAppleのVisionフレームワークを使用しています。</p>
+      <ul>
+        <li>文字認識（OCR）、バーコード検出、顔検出を行います</li>
+        <li>解析結果のうち、スコアと短い判定理由のみを端末内に保存します</li>
+        <li>OCR全文、QRコードの内容、顔の位置情報などの詳細データは保存しません</li>
+      </ul>
+
+      <h2>4. データの保存</h2>
+      <p>本アプリが端末内に保存するデータは以下のとおりです。</p>
+      <ul>
+        <li>画像のローカル識別子</li>
+        <li>仕分け状態（いらない / あとで / いる）</li>
+        <li>メモ画像スコアと短い判定理由</li>
+        <li>チュートリアル完了状態</li>
+        <li>購入状態のキャッシュ</li>
+      </ul>
+      <p>これらのデータは端末外に送信されません。設定画面からいつでも削除できます。</p>
+
+      <h2>5. 課金情報</h2>
+      <p>アプリ内課金はAppleのStoreKitを通じて処理されます。支払い情報は本アプリでは一切取り扱いません。</p>
+
+      <h2>6. 第三者サービス</h2>
+      <p>本アプリは、広告ネットワーク、アナリティクス、クラッシュレポートなどの第三者サービスを使用しません。</p>
+
+      <h2>7. 子どものプライバシー</h2>
+      <p>本アプリは、13歳未満の子どもから意図的に個人情報を収集することはありません。</p>
+
+      <h2>8. 変更について</h2>
+      <p>本プライバシーポリシーは、必要に応じて更新されることがあります。重要な変更がある場合は、アプリのアップデートを通じてお知らせします。</p>
+
+      <h2>9. お問い合わせ</h2>
+      <p>プライバシーに関するご質問は、以下よりお問い合わせください。</p>
+      <p><a href="https://forms.gle/ZVJ4cUAd6Xhy44U76" target="_blank" rel="noopener">お問い合わせフォーム</a></p>
+
+      <a href="/" class="doc-back">← トップに戻る</a>
+    </div>
+  </main>
+
+  <footer class="footer" id="footer">
+    <p class="footer__text">© 2026 kumatch games</p>
+    <div class="footer__links">
+      <a href="/privacy/" class="footer__link">プライバシーポリシー</a>
+      <span class="footer__sep">|</span>
+      <a href="/terms/" class="footer__link">利用規約</a>
+      <span class="footer__sep">|</span>
+      <a href="https://forms.gle/ZVJ4cUAd6Xhy44U76" class="footer__link" target="_blank" rel="noopener">お問い合わせ</a>
+    </div>
+  </footer>
+</body>
+</html>
