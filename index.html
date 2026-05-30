@@ -11,16 +11,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-bg">
-    <div class="bg-orb bg-orb--1"></div>
-    <div class="bg-orb bg-orb--2"></div>
-    <div class="bg-orb bg-orb--3"></div>
-  </div>
-
   <header class="header">
     <div class="header__inner">
       <a href="/" class="header__logo" id="header-logo">
-        <span class="header__logo-icon">📸</span>
+        <span class="header__logo-icon" aria-hidden="true"></span>
         <span class="header__logo-text">メモカタ</span>
       </a>
       <nav class="header__nav" id="header-nav">
@@ -48,13 +42,13 @@
 
     <div class="hero__cards" id="hero-cards">
       <div class="hero__card hero__card--back">
-        <div class="hero__card-emoji">🧾</div>
+        <div class="hero__card-mark">RECEIPT</div>
       </div>
       <div class="hero__card hero__card--mid">
-        <div class="hero__card-emoji">📋</div>
+        <div class="hero__card-mark">MEMO</div>
       </div>
       <div class="hero__card hero__card--front">
-        <div class="hero__card-emoji">📱</div>
+        <div class="hero__card-mark">SCREENSHOT</div>
         <div class="hero__card-actions">
           <span class="hero__action hero__action--left">← いらない</span>
           <span class="hero__action hero__action--up">↑ あとで</span>
@@ -67,17 +61,17 @@
   <section class="features" id="features">
     <div class="features__grid">
       <div class="feature-card" id="feature-privacy">
-        <div class="feature-card__icon">🔒</div>
+        <div class="feature-card__icon" aria-hidden="true">01</div>
         <h2 class="feature-card__title">端末内で完結</h2>
         <p class="feature-card__text">画像の解析はすべて端末内で処理。サーバーに送信しません。</p>
       </div>
       <div class="feature-card" id="feature-no-ads">
-        <div class="feature-card__icon">🚫</div>
+        <div class="feature-card__icon" aria-hidden="true">02</div>
         <h2 class="feature-card__title">広告なし</h2>
         <p class="feature-card__text">広告SDK不使用。トラッキングもありません。</p>
       </div>
       <div class="feature-card" id="feature-safe">
-        <div class="feature-card__icon">✅</div>
+        <div class="feature-card__icon" aria-hidden="true">03</div>
         <h2 class="feature-card__title">安心の削除確認</h2>
         <p class="feature-card__text">削除前に必ず確認。自動削除はしません。</p>
       </div>
@@ -87,7 +81,7 @@
   <section class="links-section" id="links-section">
     <div class="links-section__inner">
       <a href="/privacy/" class="link-card" id="link-privacy">
-        <div class="link-card__icon">📄</div>
+        <div class="link-card__icon" aria-hidden="true">PP</div>
         <div class="link-card__content">
           <h2 class="link-card__title">プライバシーポリシー</h2>
           <p class="link-card__text">個人情報の取り扱いについて</p>
@@ -95,7 +89,7 @@
         <span class="link-card__arrow">→</span>
       </a>
       <a href="/terms/" class="link-card" id="link-terms">
-        <div class="link-card__icon">📋</div>
+        <div class="link-card__icon" aria-hidden="true">TR</div>
         <div class="link-card__content">
           <h2 class="link-card__title">利用規約</h2>
           <p class="link-card__text">サービスの利用条件について</p>
